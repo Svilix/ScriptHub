@@ -1,0 +1,275 @@
+local ScreenGui = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Infinite = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local RoXploit = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local NetBypass = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ChatBypass = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local SnowHub = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UniversalEsp = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local VGHub = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TrollingGuiV2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Open = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScrollingFrame.Parent = ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.362745106, 0, 0.261859596, 0)
+ScrollingFrame.Size = UDim2.new(0, 413, 0, 299)
+ScrollingFrame.Visible = false
+
+Infinite.Name = "Infinite"
+Infinite.Parent = ScrollingFrame
+Infinite.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Infinite.Position = UDim2.new(0.0411622301, 0, 0.0324299, 0)
+Infinite.Size = UDim2.new(0, 161, 0, 30)
+Infinite.Font = Enum.Font.SourceSans
+Infinite.Text = "Infinite Yield"
+Infinite.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infinite.TextScaled = true
+Infinite.TextSize = 14.000
+Infinite.TextWrapped = true
+
+UICorner.Parent = Infinite
+
+RoXploit.Name = "RoXploit"
+RoXploit.Parent = ScrollingFrame
+RoXploit.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+RoXploit.Position = UDim2.new(0.506053269, 0, 0.0324299, 0)
+RoXploit.Size = UDim2.new(0, 161, 0, 30)
+RoXploit.Font = Enum.Font.SourceSans
+RoXploit.Text = "RoXploit"
+RoXploit.TextColor3 = Color3.fromRGB(0, 0, 0)
+RoXploit.TextScaled = true
+RoXploit.TextSize = 14.000
+RoXploit.TextWrapped = true
+
+UICorner_2.Parent = RoXploit
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.Position = UDim2.new(0.39225173, 0, -0.000948766596, 0)
+TextButton.Size = UDim2.new(0, 74, 0, 26)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 43.000
+
+NetBypass.Name = "NetBypass"
+NetBypass.Parent = ScrollingFrame
+NetBypass.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+NetBypass.Position = UDim2.new(0.506053269, 0, 0.0779706985, 0)
+NetBypass.Size = UDim2.new(0, 161, 0, 30)
+NetBypass.Font = Enum.Font.SourceSans
+NetBypass.Text = "Net Bypass"
+NetBypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+NetBypass.TextScaled = true
+NetBypass.TextSize = 14.000
+NetBypass.TextWrapped = true
+
+UICorner_3.Parent = NetBypass
+
+ChatBypass.Name = "ChatBypass"
+ChatBypass.Parent = ScrollingFrame
+ChatBypass.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ChatBypass.Position = UDim2.new(0.0411622226, 0, 0.0779706985, 0)
+ChatBypass.Size = UDim2.new(0, 161, 0, 30)
+ChatBypass.Font = Enum.Font.SourceSans
+ChatBypass.Text = "Chat Bypass"
+ChatBypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatBypass.TextScaled = true
+ChatBypass.TextSize = 14.000
+ChatBypass.TextWrapped = true
+
+UICorner_4.Parent = ChatBypass
+
+SnowHub.Name = "SnowHub"
+SnowHub.Parent = ScrollingFrame
+SnowHub.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SnowHub.Position = UDim2.new(0.506053269, 0, 0.125409037, 0)
+SnowHub.Size = UDim2.new(0, 161, 0, 30)
+SnowHub.Font = Enum.Font.SourceSans
+SnowHub.Text = "Snow Hub"
+SnowHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+SnowHub.TextScaled = true
+SnowHub.TextSize = 14.000
+SnowHub.TextWrapped = true
+
+UICorner_5.Parent = SnowHub
+
+UniversalEsp.Name = "UniversalEsp"
+UniversalEsp.Parent = ScrollingFrame
+UniversalEsp.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+UniversalEsp.Position = UDim2.new(0.0411622226, 0, 0.125409037, 0)
+UniversalEsp.Size = UDim2.new(0, 161, 0, 30)
+UniversalEsp.Font = Enum.Font.SourceSans
+UniversalEsp.Text = "Universal Esp"
+UniversalEsp.TextColor3 = Color3.fromRGB(0, 0, 0)
+UniversalEsp.TextScaled = true
+UniversalEsp.TextSize = 14.000
+UniversalEsp.TextWrapped = true
+
+UICorner_6.Parent = UniversalEsp
+
+VGHub.Name = "VGHub"
+VGHub.Parent = ScrollingFrame
+VGHub.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+VGHub.Position = UDim2.new(0.506053269, 0, 0.17284736, 0)
+VGHub.Size = UDim2.new(0, 161, 0, 30)
+VGHub.Font = Enum.Font.SourceSans
+VGHub.Text = "VG Hub"
+VGHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+VGHub.TextScaled = true
+VGHub.TextSize = 14.000
+VGHub.TextWrapped = true
+
+UICorner_7.Parent = VGHub
+
+TrollingGuiV2.Name = "TrollingGuiV2"
+TrollingGuiV2.Parent = ScrollingFrame
+TrollingGuiV2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TrollingGuiV2.Position = UDim2.new(0.0411622226, 0, 0.17284736, 0)
+TrollingGuiV2.Size = UDim2.new(0, 161, 0, 30)
+TrollingGuiV2.Font = Enum.Font.SourceSans
+TrollingGuiV2.Text = "Trolling Gui V2"
+TrollingGuiV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TrollingGuiV2.TextScaled = true
+TrollingGuiV2.TextSize = 14.000
+TrollingGuiV2.TextWrapped = true
+
+UICorner_8.Parent = TrollingGuiV2
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0, 0, 0.475332081, 0)
+Open.Size = UDim2.new(0, 110, 0, 50)
+Open.Font = Enum.Font.SciFi
+Open.Text = "Open "
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextSize = 30.000
+
+UICorner_9.Parent = Open
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(17, 17, 17)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Open
+
+-- Scripts:
+
+local function MKAQXO_fake_script() -- Infinite.Script 
+	local script = Instance.new('Script', Infinite)
+
+	Infinite.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();
+		
+	end)
+end
+coroutine.wrap(MKAQXO_fake_script)()
+local function EEUOKT_fake_script() -- RoXploit.Script 
+	local script = Instance.new('Script', RoXploit)
+
+	RoXploit.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/qqgpugGF"))();
+	
+	end)
+end
+coroutine.wrap(EEUOKT_fake_script)()
+local function KXGQZ_fake_script() -- ScrollingFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(KXGQZ_fake_script)()
+local function ERFLWQF_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(ERFLWQF_fake_script)()
+local function NGYB_fake_script() -- NetBypass.Script 
+	local script = Instance.new('Script', NetBypass)
+
+	NetBypass.MouseButton1Click:connect(function()
+		local NetEnabled = true
+		loadstring(game:HttpGet('https://paste.ee/r/HRAcR'))()  
+	
+	end)
+end
+coroutine.wrap(NGYB_fake_script)()
+local function WVXHQKQ_fake_script() -- ChatBypass.Script 
+	local script = Instance.new('Script', ChatBypass)
+
+	ChatBypass.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+	end)
+end
+coroutine.wrap(WVXHQKQ_fake_script)()
+local function BTGLJ_fake_script() -- SnowHub.Script 
+	local script = Instance.new('Script', SnowHub)
+
+	SnowHub.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
+	
+	end)
+end
+coroutine.wrap(BTGLJ_fake_script)()
+local function BERLWS_fake_script() -- UniversalEsp.Script 
+	local script = Instance.new('Script', UniversalEsp)
+
+	UniversalEsp.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/cheatx/main/cheatx%20loader'))()
+	
+	end)
+end
+coroutine.wrap(BERLWS_fake_script)()
+local function PAINHF_fake_script() -- VGHub.Script 
+	local script = Instance.new('Script', VGHub)
+
+	VGHub.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	
+	end)
+end
+coroutine.wrap(PAINHF_fake_script)()
+local function BHNQEAG_fake_script() -- TrollingGuiV2.Script 
+	local script = Instance.new('Script', TrollingGuiV2)
+
+	TrollingGuiV2.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
+	
+	end)
+end
+coroutine.wrap(BHNQEAG_fake_script)()
+local function TPGHAHN_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local Frame = script.Parent.Parent.ScrollingFrame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+end
+coroutine.wrap(TPGHAHN_fake_script)()
