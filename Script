@@ -27,6 +27,12 @@ local TextLabel = Instance.new("TextLabel")
 local CMDX = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
+local FECar = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local FECarKey = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Radio = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
 
 --Properties:
 
@@ -39,6 +45,7 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.362745106, 0, 0.261859596, 0)
 ScrollingFrame.Size = UDim2.new(0, 413, 0, 299)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
 
 Infinite.Name = "Infinite"
 Infinite.Parent = ScrollingFrame
@@ -203,9 +210,51 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
+FECar.Name = "FECar"
+FECar.Parent = ScrollingFrame
+FECar.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FECar.Position = UDim2.new(0.0411622226, 0, 0.267724007, 0)
+FECar.Size = UDim2.new(0, 161, 0, 30)
+FECar.Font = Enum.Font.SourceSans
+FECar.Text = "FE Car Script"
+FECar.TextColor3 = Color3.fromRGB(0, 0, 0)
+FECar.TextScaled = true
+FECar.TextSize = 14.000
+FECar.TextWrapped = true
+
+UICorner_11.Parent = FECar
+
+FECarKey.Name = "FECarKey"
+FECarKey.Parent = ScrollingFrame
+FECarKey.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FECarKey.Position = UDim2.new(0.11380145, 0, 0.296186984, 0)
+FECarKey.Size = UDim2.new(0, 100, 0, 25)
+FECarKey.Font = Enum.Font.SourceSans
+FECarKey.Text = "Copy Key"
+FECarKey.TextColor3 = Color3.fromRGB(0, 0, 0)
+FECarKey.TextScaled = true
+FECarKey.TextSize = 14.000
+FECarKey.TextWrapped = true
+
+UICorner_12.Parent = FECarKey
+
+Radio.Name = "Radio"
+Radio.Parent = ScrollingFrame
+Radio.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Radio.Position = UDim2.new(0.506053269, 0, 0.267724007, 0)
+Radio.Size = UDim2.new(0, 161, 0, 30)
+Radio.Font = Enum.Font.SourceSans
+Radio.Text = "Radio Hub"
+Radio.TextColor3 = Color3.fromRGB(0, 0, 0)
+Radio.TextScaled = true
+Radio.TextSize = 14.000
+Radio.TextWrapped = true
+
+UICorner_13.Parent = Radio
+
 -- Scripts:
 
-local function TLJVBQ_fake_script() -- Infinite.Script 
+local function XZEA_fake_script() -- Infinite.Script 
 	local script = Instance.new('Script', Infinite)
 
 	Infinite.MouseButton1Click:connect(function()
@@ -213,8 +262,8 @@ local function TLJVBQ_fake_script() -- Infinite.Script
 		
 	end)
 end
-coroutine.wrap(TLJVBQ_fake_script)()
-local function FPLAUG_fake_script() -- RoXploit.Script 
+coroutine.wrap(XZEA_fake_script)()
+local function GHOMK_fake_script() -- RoXploit.Script 
 	local script = Instance.new('Script', RoXploit)
 
 	RoXploit.MouseButton1Click:connect(function()
@@ -222,8 +271,8 @@ local function FPLAUG_fake_script() -- RoXploit.Script
 	
 	end)
 end
-coroutine.wrap(FPLAUG_fake_script)()
-local function VVRBJH_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(GHOMK_fake_script)()
+local function ZPHV_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	local Drag = script.Parent
@@ -265,8 +314,8 @@ local function VVRBJH_fake_script() -- ScrollingFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VVRBJH_fake_script)()
-local function IYFGFHO_fake_script() -- NetBypass.Script 
+coroutine.wrap(ZPHV_fake_script)()
+local function VKQRY_fake_script() -- NetBypass.Script 
 	local script = Instance.new('Script', NetBypass)
 
 	NetBypass.MouseButton1Click:connect(function()
@@ -275,16 +324,16 @@ local function IYFGFHO_fake_script() -- NetBypass.Script
 	
 	end)
 end
-coroutine.wrap(IYFGFHO_fake_script)()
-local function KDMUWX_fake_script() -- ChatBypass.Script 
+coroutine.wrap(VKQRY_fake_script)()
+local function IRKUJY_fake_script() -- ChatBypass.Script 
 	local script = Instance.new('Script', ChatBypass)
 
 	ChatBypass.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(KDMUWX_fake_script)()
-local function RHILQ_fake_script() -- SnowHub.Script 
+coroutine.wrap(IRKUJY_fake_script)()
+local function YRSLJK_fake_script() -- SnowHub.Script 
 	local script = Instance.new('Script', SnowHub)
 
 	SnowHub.MouseButton1Click:connect(function()
@@ -292,8 +341,8 @@ local function RHILQ_fake_script() -- SnowHub.Script
 	
 	end)
 end
-coroutine.wrap(RHILQ_fake_script)()
-local function LSWTJ_fake_script() -- UniversalEsp.Script 
+coroutine.wrap(YRSLJK_fake_script)()
+local function AYFJXP_fake_script() -- UniversalEsp.Script 
 	local script = Instance.new('Script', UniversalEsp)
 
 	UniversalEsp.MouseButton1Click:connect(function()
@@ -301,8 +350,8 @@ local function LSWTJ_fake_script() -- UniversalEsp.Script
 	
 	end)
 end
-coroutine.wrap(LSWTJ_fake_script)()
-local function CLDOAFV_fake_script() -- VGHub.Script 
+coroutine.wrap(AYFJXP_fake_script)()
+local function ZYXXTQI_fake_script() -- VGHub.Script 
 	local script = Instance.new('Script', VGHub)
 
 	VGHub.MouseButton1Click:connect(function()
@@ -310,8 +359,8 @@ local function CLDOAFV_fake_script() -- VGHub.Script
 	
 	end)
 end
-coroutine.wrap(CLDOAFV_fake_script)()
-local function PRHA_fake_script() -- TrollingGuiV2.Script 
+coroutine.wrap(ZYXXTQI_fake_script)()
+local function NCWQ_fake_script() -- TrollingGuiV2.Script 
 	local script = Instance.new('Script', TrollingGuiV2)
 
 	TrollingGuiV2.MouseButton1Click:connect(function()
@@ -319,8 +368,8 @@ local function PRHA_fake_script() -- TrollingGuiV2.Script
 	
 	end)
 end
-coroutine.wrap(PRHA_fake_script)()
-local function MZEWVOX_fake_script() -- Nullware.Script 
+coroutine.wrap(NCWQ_fake_script)()
+local function JSSMT_fake_script() -- Nullware.Script 
 	local script = Instance.new('Script', Nullware)
 
 	Nullware.MouseButton1Click:connect(function()
@@ -328,16 +377,16 @@ local function MZEWVOX_fake_script() -- Nullware.Script
 	
 	end)
 end
-coroutine.wrap(MZEWVOX_fake_script)()
-local function UHYL_fake_script() -- CMDX.Script 
+coroutine.wrap(JSSMT_fake_script)()
+local function AEFWM_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	CMDX.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(UHYL_fake_script)()
-local function IXLYE_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(AEFWM_fake_script)()
+local function JDJIU_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	local frame = script.Parent
@@ -360,4 +409,33 @@ local function IXLYE_fake_script() -- ScrollingFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IXLYE_fake_script)()
+coroutine.wrap(JDJIU_fake_script)()
+local function DDJXDSH_fake_script() -- FECar.Script 
+	local script = Instance.new('Script', FECar)
+
+	FECar.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://car-hub.xyz/script/loader"))()
+	
+	end)
+end
+coroutine.wrap(DDJXDSH_fake_script)()
+local function DWHA_fake_script() -- FECarKey.Script 
+	local script = Instance.new('Script', FECarKey)
+
+	FECarKey.MouseButton1Click:connect(function()
+		setclipboard("THIAJ17838-UANS180UQJDBIW1-EHNRIE1847001")
+		toclipboard("THIAJ17838-UANS180UQJDBIW1-EHNRIE1847001")
+	
+	end)
+	
+end
+coroutine.wrap(DWHA_fake_script)()
+local function XNNTYNM_fake_script() -- Radio.Script 
+	local script = Instance.new('Script', Radio)
+
+	Radio.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/XmjaMecr"))()
+	
+	end)
+end
+coroutine.wrap(XNNTYNM_fake_script)()
