@@ -1,10 +1,14 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local Infinite = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local RoXploit = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
 local NetBypass = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local ChatBypass = Instance.new("TextButton")
@@ -17,9 +21,12 @@ local VGHub = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local TrollingGuiV2 = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local Open = Instance.new("TextButton")
+local Nullware = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
-local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local CMDX = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -32,7 +39,6 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.362745106, 0, 0.261859596, 0)
 ScrollingFrame.Size = UDim2.new(0, 413, 0, 299)
-ScrollingFrame.Visible = false
 
 Infinite.Name = "Infinite"
 Infinite.Parent = ScrollingFrame
@@ -61,15 +67,6 @@ RoXploit.TextSize = 14.000
 RoXploit.TextWrapped = true
 
 UICorner_2.Parent = RoXploit
-
-TextButton.Parent = ScrollingFrame
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-TextButton.Position = UDim2.new(0.39225173, 0, -0.000948766596, 0)
-TextButton.Size = UDim2.new(0, 74, 0, 26)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "X"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 43.000
 
 NetBypass.Name = "NetBypass"
 NetBypass.Parent = ScrollingFrame
@@ -155,25 +152,60 @@ TrollingGuiV2.TextWrapped = true
 
 UICorner_8.Parent = TrollingGuiV2
 
-Open.Name = "Open"
-Open.Parent = ScreenGui
-Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Open.BorderSizePixel = 0
-Open.Position = UDim2.new(0, 0, 0.475332081, 0)
-Open.Size = UDim2.new(0, 110, 0, 50)
-Open.Font = Enum.Font.SciFi
-Open.Text = "Open "
-Open.TextColor3 = Color3.fromRGB(0, 0, 0)
-Open.TextSize = 30.000
+Nullware.Name = "Nullware"
+Nullware.Parent = ScrollingFrame
+Nullware.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Nullware.Position = UDim2.new(0.506053269, 0, 0.218388155, 0)
+Nullware.Size = UDim2.new(0, 161, 0, 30)
+Nullware.Font = Enum.Font.SourceSans
+Nullware.Text = "Nullware Hub"
+Nullware.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nullware.TextScaled = true
+Nullware.TextSize = 14.000
+Nullware.TextWrapped = true
 
-UICorner_9.Parent = Open
+UICorner_9.Parent = Nullware
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(17, 17, 17)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient.Parent = Open
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 161, 0, 25)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made By Darkkonn"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+CMDX.Name = "CMDX"
+CMDX.Parent = ScrollingFrame
+CMDX.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+CMDX.Position = UDim2.new(0.0411622226, 0, 0.218388155, 0)
+CMDX.Size = UDim2.new(0, 161, 0, 30)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.TextScaled = true
+CMDX.TextSize = 14.000
+CMDX.TextWrapped = true
+
+UICorner_10.Parent = CMDX
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.486682802, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 161, 0, 25)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Press Right Shift To Toggle"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function MKAQXO_fake_script() -- Infinite.Script 
+local function TLJVBQ_fake_script() -- Infinite.Script 
 	local script = Instance.new('Script', Infinite)
 
 	Infinite.MouseButton1Click:connect(function()
@@ -181,8 +213,8 @@ local function MKAQXO_fake_script() -- Infinite.Script
 		
 	end)
 end
-coroutine.wrap(MKAQXO_fake_script)()
-local function EEUOKT_fake_script() -- RoXploit.Script 
+coroutine.wrap(TLJVBQ_fake_script)()
+local function FPLAUG_fake_script() -- RoXploit.Script 
 	local script = Instance.new('Script', RoXploit)
 
 	RoXploit.MouseButton1Click:connect(function()
@@ -190,26 +222,51 @@ local function EEUOKT_fake_script() -- RoXploit.Script
 	
 	end)
 end
-coroutine.wrap(EEUOKT_fake_script)()
-local function KXGQZ_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(FPLAUG_fake_script)()
+local function VVRBJH_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
-	script.Parent.Selectable = true
-	script.Parent.Active = true
-	script.Parent.Draggable = true
-end
-coroutine.wrap(KXGQZ_fake_script)()
-local function ERFLWQF_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
-
-	local Frame = script.Parent.Parent
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		Frame.Visible = false
+	local Drag = script.Parent
+	gsCoreGui = game:GetService("CoreGui")
+	gsTween = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	local function update(input)
+		local delta = input.Position - dragStart
+		local dragTime = 0.04
+		local SmoothDrag = {}
+		SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
+		dragSmoothFunction:Play()
+	end
+	Drag.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = Drag.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	Drag.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging and Drag.Size then
+			update(input)
+		end
 	end)
 end
-coroutine.wrap(ERFLWQF_fake_script)()
-local function NGYB_fake_script() -- NetBypass.Script 
+coroutine.wrap(VVRBJH_fake_script)()
+local function IYFGFHO_fake_script() -- NetBypass.Script 
 	local script = Instance.new('Script', NetBypass)
 
 	NetBypass.MouseButton1Click:connect(function()
@@ -218,16 +275,16 @@ local function NGYB_fake_script() -- NetBypass.Script
 	
 	end)
 end
-coroutine.wrap(NGYB_fake_script)()
-local function WVXHQKQ_fake_script() -- ChatBypass.Script 
+coroutine.wrap(IYFGFHO_fake_script)()
+local function KDMUWX_fake_script() -- ChatBypass.Script 
 	local script = Instance.new('Script', ChatBypass)
 
 	ChatBypass.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(WVXHQKQ_fake_script)()
-local function BTGLJ_fake_script() -- SnowHub.Script 
+coroutine.wrap(KDMUWX_fake_script)()
+local function RHILQ_fake_script() -- SnowHub.Script 
 	local script = Instance.new('Script', SnowHub)
 
 	SnowHub.MouseButton1Click:connect(function()
@@ -235,8 +292,8 @@ local function BTGLJ_fake_script() -- SnowHub.Script
 	
 	end)
 end
-coroutine.wrap(BTGLJ_fake_script)()
-local function BERLWS_fake_script() -- UniversalEsp.Script 
+coroutine.wrap(RHILQ_fake_script)()
+local function LSWTJ_fake_script() -- UniversalEsp.Script 
 	local script = Instance.new('Script', UniversalEsp)
 
 	UniversalEsp.MouseButton1Click:connect(function()
@@ -244,8 +301,8 @@ local function BERLWS_fake_script() -- UniversalEsp.Script
 	
 	end)
 end
-coroutine.wrap(BERLWS_fake_script)()
-local function PAINHF_fake_script() -- VGHub.Script 
+coroutine.wrap(LSWTJ_fake_script)()
+local function CLDOAFV_fake_script() -- VGHub.Script 
 	local script = Instance.new('Script', VGHub)
 
 	VGHub.MouseButton1Click:connect(function()
@@ -253,8 +310,8 @@ local function PAINHF_fake_script() -- VGHub.Script
 	
 	end)
 end
-coroutine.wrap(PAINHF_fake_script)()
-local function BHNQEAG_fake_script() -- TrollingGuiV2.Script 
+coroutine.wrap(CLDOAFV_fake_script)()
+local function PRHA_fake_script() -- TrollingGuiV2.Script 
 	local script = Instance.new('Script', TrollingGuiV2)
 
 	TrollingGuiV2.MouseButton1Click:connect(function()
@@ -262,14 +319,45 @@ local function BHNQEAG_fake_script() -- TrollingGuiV2.Script
 	
 	end)
 end
-coroutine.wrap(BHNQEAG_fake_script)()
-local function TPGHAHN_fake_script() -- Open.LocalScript 
-	local script = Instance.new('LocalScript', Open)
+coroutine.wrap(PRHA_fake_script)()
+local function MZEWVOX_fake_script() -- Nullware.Script 
+	local script = Instance.new('Script', Nullware)
 
-	local Frame = script.Parent.Parent.ScrollingFrame
+	Nullware.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/37eef2120d509b37b31fa73944ab2361/raw/kT2fVEFnzDfCRXAP"))()
 	
-	script.Parent.MouseButton1Click:Connect(function()
-		Frame.Visible = true
 	end)
 end
-coroutine.wrap(TPGHAHN_fake_script)()
+coroutine.wrap(MZEWVOX_fake_script)()
+local function UHYL_fake_script() -- CMDX.Script 
+	local script = Instance.new('Script', CMDX)
+
+	CMDX.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(UHYL_fake_script)()
+local function IXLYE_fake_script() -- ScrollingFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	local frame = script.Parent
+	local hotkey = Enum.KeyCode.RightShift
+	local UIS = game:GetService("UserInputService")
+	local open = false 
+	
+	
+	UIS.InputBegan:Connect(function(key, gp)
+		if key.KeyCode ==  hotkey then
+			if open == false then
+				open = true
+				frame.Visible = open
+			elseif open == true then
+				open = false
+				frame.Visible = open
+				
+			end
+			
+		end
+	end)
+end
+coroutine.wrap(IXLYE_fake_script)()
